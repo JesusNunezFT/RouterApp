@@ -8,7 +8,9 @@ export default defineNuxtConfig({
   },
 
   modules: [
+    '@nuxtjs/tailwindcss',
     'nuxt-primevue'
+    
   ],
 
 //   primevue: {
@@ -19,7 +21,10 @@ export default defineNuxtConfig({
 //     },
 // },
 
-  css: ['primevue/resources/themes/aura-light-green/theme.css'],
+  css: [
+    'primevue/resources/themes/aura-light-green/theme.css',
+    '/assets/css/global.css'
+  ],
  
 
 })
